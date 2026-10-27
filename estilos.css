@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: Outfit, sans-serif;
+    margin: 0;
+}
+
+aside {
+    background-color: rgb(22, 22, 22);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100vh;
+    background-color: #1a1a1a;
+    padding-top: 40px;
+  
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+body{
+    background-color: black;
+}
+main{
+    margin-left:300px;
+    margin-top: 50px;
+}
+#adicionar{
+    width: 180px;
+    height: 6
+    90px;
+}
+p{
+    color: rgb(185, 185, 185);
+    margin-left: 57px;
+}
+
+.capa{
+    border-radius: 20px;
+    margin: 30px;
+    width: 1500px;
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    
+}
+.capa:hover{
+    cursor: pointer;
+    opacity: 80%;
+    
+}
+h1{
+    color: rgb(255, 255, 255);
+    margin: 30px;
+}
+label{
+    color: white;
+}
